@@ -25,4 +25,4 @@ I completed the Front-end Development course a month ago, but I was not satisfie
 * English - Pre - Intermediate
 * Russian - Intermediate
 
-
+[]
