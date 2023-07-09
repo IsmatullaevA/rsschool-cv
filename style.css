@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 18px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button.textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+ 
+/* ----------------HEADER----------------- */
+header {
+    background-color: #F0BD00;    
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    text-decoration: underline 2px;
+    color: #252525;
+}
+/* ----------------HEADER----------------- */
+
+
+
+
+
+/* ---------------MAIN---------------- */
+main {
+    background-color: #292935;
+    padding-bottom: 100px;
+}
+.author {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name {
+    color: #F0BD00;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    padding-top: 30px;
+    width: 50%;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+.contacts-icons {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skills-icons {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contacts-icons p{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.skills-icons p{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+section p {
+    padding-top: 20px;
+}
+code {
+    padding-top: 20px;
+}
+
+/* ---------------MAIN---------------- */
+
+/* ---------------------FOOTER------------- */
+
+footer {
+    font-weight: 700;
+    background-color: #F0BD00;
+    
+}
+footer .container{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+footer a {
+    color: #252525;
+    padding-left: 120px;
+}
+.rsschool {
+    height: 80px;
+    width: 50px;
+}
+
+
+
+/* ---------------------FOOTER------------- */
